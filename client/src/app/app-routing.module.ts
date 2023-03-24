@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren:()=>import('./modules/auth/auth.module').then(m=>m.AuthModule)
   },
   {
-    path:'',
+    path:'courses',
     loadChildren:()=>import('./modules/courses/courses.module').then(m=>m.CoursesModule)
   }
 ];
